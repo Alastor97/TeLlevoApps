@@ -1,0 +1,33 @@
+<ion-header>
+ 
+</ion-header>
+
+<ion-content >
+
+  <!--Titulo nombre app-->
+  <div id="divTitulo">
+    <ion-title color="blanco" id="titulo">T&nbsp;E&nbsp;&nbsp;&nbsp;L&nbsp;L&nbsp;E&nbsp;V&nbsp;O</ion-title>
+    <ion-title color="blanco" id="subtitulo">A&nbsp;P&nbsp;P</ion-title>
+  </div>
+  
+  <!--Inputs iniciar sesion-->
+  <ion-card>
+    <form>
+      <!--Input usuario-->
+      <ion-item color="blanco">
+        <ion-label position="stacked">Ingresar Usuario</ion-label>
+        <ion-input color="gris" type="text" #username ></ion-input>
+      </ion-item>
+      <!--Input contraseña-->
+      <ion-item color="blanco">
+        <ion-label position="stacked">Ingresar Contraseña</ion-label>
+        <ion-input color="gris" type="password" #password></ion-input>
+      </ion-item>
+    </form>
+  </ion-card>
+  <!--Boton ingresar sesion-->
+  <ion-button id="iniciarSesion" color="gris" (click)="login()" >Iniciar sesión</ion-button>
+  <!--Boton restablecer contraseña-->
+  <ion-button id="restablecerPassword" color="gris" fill="clear" (click)="restablecer()">Restablecer contraseña</ion-button>
+  
+</ion-content>

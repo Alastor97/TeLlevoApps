@@ -1,0 +1,7 @@
+{
+  "name": "TeLlevoApp_Evaluacion1",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

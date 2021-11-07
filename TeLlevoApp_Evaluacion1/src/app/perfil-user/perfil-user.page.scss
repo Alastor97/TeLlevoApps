@@ -1,0 +1,67 @@
+ion-content{
+    --ion-background-color:#ffffff;
+}
+
+#titulo {
+    background-color: var(--ion-color-negro);
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    text-align: center;
+}
+
+.photo-perfil{
+    background-color: var(--ion-color-negro);
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+}
+
+.datos-user{
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.img-perfil{
+    display: block;
+
+}
+
+#bienvenida {
+    background-color: var(--ion-color-negro);
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#toolbar {
+    background-color: var(--ion-color-negro);
+    color: white;
+}
+
+#icono {
+    background-color: var(--ion-color-blanco);
+}
+
+.menu-perfil{
+    background-color: var(--ion-color-negro);
+    margin-top: 1%;
+    height: 100%;
+    width:100%
+}
+
+
+
